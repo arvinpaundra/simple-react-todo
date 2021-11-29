@@ -1,0 +1,45 @@
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input input {
+  width: 50%;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.radio-opt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-input .radio-opt input {
+  width: auto;
+}
+
+.form-input .radio-opt .radio-wrapper label {
+  margin-bottom: 0;
+}
+
+.form-input label {
+  margin-bottom: 8px;
+}
+
+.radio-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.todo-input__actions {
+  text-align: right;
+}
